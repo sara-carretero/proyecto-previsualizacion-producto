@@ -10,7 +10,17 @@ body {
   height: 100vh;
 }
 
+img {
+  width: 100%;
+}
 
+article {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
 .posteo {
   display: flex;
