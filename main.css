@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -35,6 +36,12 @@ article {
 .contenido {
   padding: 20px;
   width: 80%;
+}
+
+.contenido h2,
+h3,
+p {
+  margin-bottom: 20px;
 }
 
 .precios {
