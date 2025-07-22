@@ -5,8 +5,11 @@
 
 body {
   display: flex;
+  /* centrar los elementos hijos en el eje X */
   justify-content: center;
+  /* centrar los elementos hijos en el eje Y */
   align-items: center;
+  /*Para centrar en el medio de la página*/
   height: 100vh;
   background-color: rgb(243, 234, 227);
 }
@@ -19,17 +22,22 @@ article {
   background-color: white;
   width: 600px;
   border-radius: 20px;
+  /*overflow elimina lo que sobresale de las dimensiones*/
   overflow: hidden;
-}
-
-.posteo {
   display: flex;
-  /*gap para separar los items de display: flex*/
-  gap: 30px;
-  justify-content: space-between;
+  /*gap para separar los items de display: flex
+  gap: 20px;*/
   align-items: center;
-  padding: 10px;
+  justify-content: space-between;
   border-radius: 10px;
 }
 
-.contenido {}
+.contenido {
+  padding: 20px;
+  width: 80%;
+}
+
+.precios {
+  display: flex;
+  gap: 20px;
+}
